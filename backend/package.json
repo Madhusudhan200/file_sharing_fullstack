@@ -1,0 +1,21 @@
+{
+  "name": "crossway-drop",
+  "version": "1.0.0",
+  "description": "Share images, videos, apps and files between iOS, Android, macOS, Windows and Linux using a 6-digit code.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.22.3",
+    "jszip": "^3.10.2",
+    "multer": "^2.4.0",
+    "qrcode": "^1.5.4"
+  }
+}
